@@ -9,7 +9,7 @@ driver.get("localhost:3000/")
 driver.find_element_by_link_text("About Us").click()
 try:
      driver.find_element_by_xpath('//p[@id="PID-ab2-pg" and text()="This is "]')
-     print ("no")
+     print ("yes")
 except NoSuchElementException:
-     print ("nooo")
+     print ("no")
 driver.quit()
