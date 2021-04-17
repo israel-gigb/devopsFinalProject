@@ -2,7 +2,7 @@
 
 /**
  * Used to store website configuration information.
- * abcdefghijklmnopqrstuvwxyzabcd
+ * abcdefghijklmnopqrstuvwxyzabcde
  * @var string
  */
 function config($key = '')
