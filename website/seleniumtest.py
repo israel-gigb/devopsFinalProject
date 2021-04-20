@@ -8,7 +8,7 @@ driver = webdriver.Firefox(options=options)
 driver.get("localhost:3000/")
 driver.find_element_by_link_text("About Us").click()
 try:
-     driver.find_element_by_xpath('//p[@id="PID-ab2-pg" and text()="This is wrong"]')
+     driver.find_element_by_xpath('//p[@id="PID-ab2-pg" and text()="This is "]')
      print ("yes")
 except NoSuchElementException:
      print ("no")
